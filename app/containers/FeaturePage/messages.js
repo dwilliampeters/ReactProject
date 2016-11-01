@@ -96,4 +96,8 @@ export default defineMessages({
     id: 'boilerplate.containers.FeaturePage.home',
     defaultMessage: 'Home',
   },
+  danButton: {
+    id: 'boilerplate.containers.FeaturePage.dan',
+    defaultMessage: 'Dan',
+  },
 });

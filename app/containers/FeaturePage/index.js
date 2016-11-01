@@ -20,6 +20,10 @@ export class FeaturePage extends React.Component {
     this.props.dispatch(push('/'));
   };
 
+  openDanPage = () => {
+    this.props.dispatch(push('/dan'));
+  };
+
   render() {
     return (
       <div>
@@ -78,6 +82,9 @@ export class FeaturePage extends React.Component {
             </p>
           </li>
         </ul>
+        <Button handleRoute={this.openDanPage}>
+          <FormattedMessage {...messages.danButton} />
+        </Button>
         <Button handleRoute={this.openHomePage}>
           <FormattedMessage {...messages.homeButton} />
         </Button>

@@ -60,6 +60,13 @@ export class HomePage extends React.Component {
     this.openRoute('/features');
   };
 
+  /**
+   * Changed route to '/dan'
+   */
+  openDanPage = () => {
+    this.props.dispatch(push('/dan'));
+  };
+
   render() {
     let mainContent = null;
 
@@ -118,6 +125,9 @@ export class HomePage extends React.Component {
             </form>
             {mainContent}
           </section>
+          <Button handleRoute={this.openDanPage}>
+            <FormattedMessage {...messages.danButton} />
+          </Button>
           <Button handleRoute={this.openFeaturesPage}>
             <FormattedMessage {...messages.featuresButton} />
           </Button>

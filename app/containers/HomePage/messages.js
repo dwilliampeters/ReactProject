@@ -30,4 +30,8 @@ export default defineMessages({
     id: 'boilerplate.containers.HomePage.features.Button',
     defaultMessage: 'Features',
   },
+  danButton: {
+    id: 'boilerplate.containers.FeaturePage.dan',
+    defaultMessage: 'Dan',
+  },
 });
