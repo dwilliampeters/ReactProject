@@ -13,6 +13,25 @@ import { FormattedMessage } from 'react-intl';
 import H1 from 'components/H1';
 
 export class DanPage extends React.Component {
+  openHomePage = () => {
+    this.props.dispatch(push('/'));
+  };
+
+  render() {
+    return (
+      <div>
+        <Helmet
+          title="Feature Page"
+          meta={[
+            { name: 'description', content: 'Feature page of React.js Boilerplate application' },
+          ]}
+        />
+        <H1>
+          <FormattedMessage {...messages.header} />
+        </H1>
+      </div>
+    );
+  }
 
 }
 

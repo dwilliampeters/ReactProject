@@ -10,5 +10,5 @@ export default defineMessages({
   header: {
     id: 'boilerplate.containers.DanPage.header',
     defaultMessage: 'Dan',
-  }
+  },
 });
