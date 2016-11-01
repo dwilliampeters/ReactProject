@@ -116,8 +116,8 @@
   },
   {
     "id": "boilerplate.containers.HomePage.start_project.header",
-    "defaultMessage": "Start your next react project in seconds",
-    "message": "Start your next react project in seconds"
+    "defaultMessage": "Start your next react project in seconds but be prepared to learn a lot",
+    "message": "Start your next react project in seconds but be prepared to learn a lot"
   },
   {
     "id": "boilerplate.containers.HomePage.start_project.message",
