@@ -40,7 +40,7 @@ export class DanPage extends React.Component {
           <FormattedMessage {...messages.header} />
         </H1>
         <p>
-
+          <FormattedMessage {...messages.danMessage} />
         </p>
         <Button handleRoute={this.openHomePage}>
           <FormattedMessage {...messages.homeButton} />

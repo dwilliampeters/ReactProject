@@ -13,6 +13,10 @@ export default defineMessages({
     id: 'boilerplate.containers.DanPage.header',
     defaultMessage: 'Dan',
   },
+  danMessage: {
+    id: 'boilerplate.containers.DanPage.dan.message',
+    defaultMessage: 'Probably the best page on the web, read at your own risk, I did not mean to blow your mind!',
+  },
   homeButton: {
     id: 'boilerplate.containers.FeaturePage.home',
     defaultMessage: 'Home',
